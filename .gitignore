@@ -1,0 +1,21 @@
+# Sorgenti Stitch (mockup non usati nel sito live)
+caratteristiche_all_in_one_ui_*/
+caratteristiche_e_feedback_all_in_one_ui_*/
+cinematic_launcher_system/
+dashboard_amministrativa_overview/
+download_all_in_one_ui_*/
+gestione_feedback_admin/
+home_all_in_one_ui_*/
+personalizzazione_avanzata_all_in_one_ui_*/
+temi_all_in_one_ui/
+temi_all_in_one_ui_*/
+temi_personalizzazione_all_in_one_ui/
+immagine.png_*/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.vscode/
+.idea/
