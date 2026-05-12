@@ -18,7 +18,7 @@ guida.md
 
 # Dashboard admin locale (programma standalone, non parte sito pubblico)
 local-admin/
-Avvia Dashboard.bat
+Dashboard.exe
 
 # Sistema
 .DS_Store
