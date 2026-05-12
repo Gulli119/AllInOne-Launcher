@@ -5,7 +5,7 @@ Sito statico per launcher media multipiattaforma. Hosted su GitHub Pages.
 ## Struttura
 
 ```
-site/
+docs/
 ├── index.html           Home cinematic
 ├── caratteristiche.html Specifiche + form feedback (Firestore)
 ├── temi.html            Galleria temi
