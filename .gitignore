@@ -15,7 +15,10 @@ immagine.png_*/
 # Documenti privati (non pubblicabili)
 SETUP-FIREBASE.md
 guida.md
-docs/admin.html
+
+# Dashboard admin locale (programma standalone, non parte sito pubblico)
+local-admin/
+Avvia Dashboard.bat
 
 # Sistema
 .DS_Store
