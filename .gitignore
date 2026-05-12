@@ -12,6 +12,10 @@ temi_all_in_one_ui_*/
 temi_personalizzazione_all_in_one_ui/
 immagine.png_*/
 
+# Documenti privati (non pubblicabili)
+SETUP-FIREBASE.md
+guida.md
+
 # Sistema
 .DS_Store
 Thumbs.db
