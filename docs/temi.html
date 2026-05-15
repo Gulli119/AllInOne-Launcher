@@ -6,192 +6,142 @@
 <title>ALL IN ONE UI - Temi &amp; Personalizzazione</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;800&amp;family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Lexend:wght@700;800&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-  tailwind.config = {
-    darkMode: "class",
-    theme: {
-      extend: {
-        "colors": {
-                "error-container": "#93000a",
-                "surface-dim": "#131313",
-                "surface-variant": "#353534",
-                "on-tertiary-fixed-variant": "#4c4358",
-                "on-surface-variant": "#d5c4ab",
-                "on-secondary": "#003543",
-                "tertiary-fixed": "#ebddf8",
-                "secondary-fixed-dim": "#4cd6ff",
-                "on-primary": "#412d00",
-                "primary-container": "#ffb800",
-                "surface-container-high": "#2a2a2a",
-                "on-error": "#690005",
-                "outline": "#9e8f78",
-                "on-primary-container": "#6b4c00",
-                "secondary-container": "#14d1ff",
-                "inverse-surface": "#e5e2e1",
-                "on-primary-fixed-variant": "#5e4200",
-                "inverse-primary": "#7c5800",
-                "primary": "#ffdca1",
-                "surface-container-highest": "#353534",
-                "on-secondary-container": "#00566b",
-                "tertiary-fixed-dim": "#cfc1dc",
-                "on-background": "#e5e2e1",
-                "surface-container": "#201f1f",
-                "on-primary-fixed": "#271900",
-                "surface-tint": "#ffba20",
-                "secondary-fixed": "#b7eaff",
-                "on-tertiary-container": "#574d63",
-                "on-error-container": "#ffdad6",
-                "surface-container-lowest": "#0e0e0e",
-                "surface-container-low": "#1c1b1b",
-                "outline-variant": "#514532",
-                "surface-bright": "#3a3939",
-                "tertiary": "#eadcf7",
-                "inverse-on-surface": "#313030",
-                "primary-fixed-dim": "#ffba20",
-                "on-tertiary": "#352d41",
-                "on-secondary-fixed": "#001f28",
-                "on-secondary-fixed-variant": "#004e60",
-                "secondary": "#a6e6ff",
-                "background": "#131313",
-                "error": "#ffb4ab",
-                "tertiary-container": "#cdc0da",
-                "on-tertiary-fixed": "#20182b",
-                "on-surface": "#e5e2e1",
-                "surface": "#131313",
-                "primary-fixed": "#ffdea8"
-        },
-        "borderRadius": {
-                "DEFAULT": "0.25rem",
-                "lg": "0.5rem",
-                "xl": "0.75rem",
-                "full": "9999px"
-        },
-        "spacing": {
-                "xs": "4px",
-                "xxl": "64px",
-                "margin-desktop": "48px",
-                "margin-mobile": "16px",
-                "lg": "24px",
-                "gutter": "24px",
-                "unit": "4px",
-                "md": "16px",
-                "xl": "40px",
-                "sm": "8px"
-        },
-        "fontFamily": {
-                "label-bold": [
-                        "Inter"
-                ],
-                "headline-lg": [
-                        "Lexend"
-                ],
-                "display-lg": [
-                        "Lexend"
-                ],
-                "body-lg": [
-                        "Inter"
-                ],
-                "headline-md": [
-                        "Lexend"
-                ],
-                "label-sm": [
-                        "Inter"
-                ],
-                "body-md": [
-                        "Inter"
-                ]
-        },
-        "fontSize": {
-                "label-bold": [
-                        "14px",
-                        {
-                                "lineHeight": "1.2",
-                                "fontWeight": "700"
-                        }
-                ],
-                "headline-lg": [
-                        "32px",
-                        {
-                                "lineHeight": "1.2",
-                                "fontWeight": "700"
-                        }
-                ],
-                "display-lg": [
-                        "48px",
-                        {
-                                "lineHeight": "1.1",
-                                "letterSpacing": "-0.02em",
-                                "fontWeight": "800"
-                        }
-                ],
-                "body-lg": [
-                        "18px",
-                        {
-                                "lineHeight": "1.6",
-                                "fontWeight": "400"
-                        }
-                ],
-                "headline-md": [
-                        "24px",
-                        {
-                                "lineHeight": "1.3",
-                                "fontWeight": "700"
-                        }
-                ],
-                "label-sm": [
-                        "12px",
-                        {
-                                "lineHeight": "1.2",
-                                "fontWeight": "500"
-                        }
-                ],
-                "body-md": [
-                        "16px",
-                        {
-                                "lineHeight": "1.5",
-                                "fontWeight": "400"
-                        }
-                ]
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#9e8f78",
+                        "on-tertiary-fixed": "#20182b",
+                        "inverse-surface": "#e5e2e1",
+                        "secondary-fixed-dim": "#4cd6ff",
+                        "secondary-fixed": "#b7eaff",
+                        "primary-fixed-dim": "#ffba20",
+                        "surface-container-highest": "#353534",
+                        "on-tertiary-fixed-variant": "#4c4358",
+                        "surface-bright": "#3a3939",
+                        "tertiary-fixed-dim": "#cfc1dc",
+                        "on-primary": "#412d00",
+                        "surface-container-low": "#1c1b1b",
+                        "tertiary-fixed": "#ebddf8",
+                        "surface-container": "#201f1f",
+                        "error": "#ffb4ab",
+                        "primary-container": "#ffb800",
+                        "on-background": "#e5e2e1",
+                        "surface": "#131313",
+                        "on-primary-fixed": "#271900",
+                        "on-surface": "#e5e2e1",
+                        "error-container": "#93000a",
+                        "primary": "#ffdca1",
+                        "on-primary-fixed-variant": "#5e4200",
+                        "on-secondary-fixed-variant": "#004e60",
+                        "on-error": "#690005",
+                        "secondary-container": "#14d1ff",
+                        "surface-tint": "#ffba20",
+                        "on-primary-container": "#6b4c00",
+                        "on-tertiary": "#352d41",
+                        "primary-fixed": "#ffdea8",
+                        "on-error-container": "#ffdad6",
+                        "on-secondary": "#003543",
+                        "secondary": "#a6e6ff",
+                        "on-surface-variant": "#d5c4ab",
+                        "on-secondary-fixed": "#001f28",
+                        "surface-dim": "#131313",
+                        "inverse-on-surface": "#313030",
+                        "surface-variant": "#353534",
+                        "on-secondary-container": "#00566b",
+                        "inverse-primary": "#7c5800",
+                        "surface-container-lowest": "#0e0e0e",
+                        "surface-container-high": "#2a2a2a",
+                        "on-tertiary-container": "#574d63",
+                        "tertiary": "#eadcf7",
+                        "tertiary-container": "#cdc0da",
+                        "outline-variant": "#514532",
+                        "background": "#131313"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "xs": "4px",
+                        "gutter": "24px",
+                        "xl": "40px",
+                        "xxl": "64px",
+                        "margin-mobile": "16px",
+                        "unit": "4px",
+                        "lg": "24px",
+                        "sm": "8px",
+                        "md": "16px",
+                        "margin-desktop": "48px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Lexend", "sans-serif"],
+                        "headline-lg": ["Lexend", "sans-serif"],
+                        "label-bold": ["Inter", "sans-serif"],
+                        "body-md": ["Inter", "sans-serif"],
+                        "label-sm": ["Inter", "sans-serif"],
+                        "body-lg": ["Inter", "sans-serif"],
+                        "headline-md": ["Lexend", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "label-bold": ["14px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "700" }]
+                    }
+                }
+            }
         }
-},
-    },
-  }
-</script>
+    </script>
 <style>
         body {
-            background-color: theme('colors.background');
+            background-color: #131313;
+            background-image: radial-gradient(circle at top right, rgba(0, 229, 255, 0.15) 0%, transparent 40%),
+                              radial-gradient(circle at top left, rgba(245, 0, 87, 0.15) 0%, transparent 40%),
+                              radial-gradient(circle at bottom, rgba(255, 196, 0, 0.1) 0%, #131313 70%);
             background-attachment: fixed;
-            color: theme('colors.on-surface');
+            color: #e5e2e1;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
         }
         .glass-panel {
-            background-color: rgba(19, 19, 19, 0.7);
+            background: rgba(26, 18, 37, 0.6);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-top: 1px solid rgba(255, 255, 255, 0.05);
             border-left: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
         }
-        .glass-sunken {
-            background-color: rgba(14, 14, 14, 0.5);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            border-right: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+        .glow-hover:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 20px rgba(0, 229, 255, 0.2), 0 0 20px rgba(245, 0, 87, 0.2);
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
         }
     </style>
 </head>
 <body class="font-body-md text-body-md antialiased min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container">
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 flex justify-between items-center px-gutter py-md max-w-full bg-surface/70 backdrop-blur-xl dark:bg-surface/70 border-b border-outline-variant/30">
-<div class="flex items-center gap-md"><img alt="ALL IN ONE UI Logo" class="h-8 w-auto" src="assets/img-08.png"/></div>
-<div class="hidden md:flex gap-lg font-display-lg text-body-md"><a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="index.html">Home</a>
-<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="caratteristiche.html">Caratteristiche</a>
-<a class="text-primary font-bold border-b-2 border-primary pb-1 hover:text-primary transition-colors duration-300" href="temi.html">Temi</a>
-<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="download.html">Download</a></div>
-<div class="flex items-center gap-md">
-<a href="https://drive.google.com/uc?export=download&id=186Ilca1Oe6C8naiSG9ZpGBJK44QJ-SCX" class="bg-primary-container text-on-primary-container px-lg py-sm rounded-full font-label-bold hover:bg-primary-fixed transition-colors inline-block">Download Alpha</a>
+<div class="flex items-center gap-sm">
+<img alt="ALL IN ONE UI Logo" class="h-10 w-auto object-contain" src="assets/img-08.png"/>
+<span class="font-display-lg text-headline-md font-extrabold bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text tracking-tighter">ALL IN ONE UI</span>
 </div>
+<div class="hidden md:flex items-center gap-gutter"><a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="index.html">Home</a>
+<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="caratteristiche.html">Caratteristiche</a>
+<a class="text-[#ffc400] font-bold border-b-2 border-[#ffc400] pb-1" href="temi.html">Temi</a>
+<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="download.html">Download</a></div>
+<a href="https://drive.google.com/uc?export=download&id=186Ilca1Oe6C8naiSG9ZpGBJK44QJ-SCX" class="bg-gradient-to-r from-[#f50057] to-[#ffc400] text-white font-label-bold px-lg py-sm rounded-full hover:shadow-[0_0_15px_rgba(245,0,87,0.5)] transition-all inline-block">
+            Download Alpha
+        </a>
 </nav>
 <!-- Main Content Canvas -->
 <main class="flex-grow pt-[80px] px-gutter md:px-margin-desktop pb-xxl flex flex-col gap-xxl max-w-7xl mx-auto w-full">
@@ -283,13 +233,16 @@
 </main>
 <!-- Footer -->
 <footer class="w-full py-xl px-gutter flex flex-col md:flex-row justify-between items-center gap-md bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20">
-<div class="flex items-center gap-md"><div class="flex items-center gap-md">
-<img alt="ALL IN ONE UI Logo" class="h-6 w-auto" src="assets/img-08.png"/>
-<span class="font-body-md text-label-sm text-on-surface-variant">Â© 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha</span>
+<div class="font-display-lg text-body-lg font-bold"><div class="flex items-center gap-sm">
+<img alt="ALL IN ONE UI Logo" class="h-8 w-auto object-contain" src="assets/img-08.png"/>
+<span class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text">ALL IN ONE UI</span>
 </div></div>
-<div class="flex gap-lg font-body-md text-label-sm"><a class="text-on-surface-variant hover:text-secondary-fixed-dim transition-all" href="index.html">Home</a>
-<a class="text-on-surface-variant hover:text-secondary-fixed-dim transition-all" href="caratteristiche.html">Caratteristiche</a>
-<a class="text-on-surface-variant hover:text-secondary-fixed-dim transition-all" href="temi.html">Temi</a>
-<a class="text-on-surface-variant hover:text-secondary-fixed-dim transition-all" href="download.html">Download</a></div>
+<div class="font-body-md text-label-sm text-on-surface dark:text-on-surface text-center">
+            © 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha
+        </div>
+<div class="flex gap-lg"><a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="index.html">Home</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#f50057] transition-all" href="caratteristiche.html">Caratteristiche</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#ffc400] transition-all" href="temi.html">Temi</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="download.html">Download</a></div>
 </footer>
 </body></html>
