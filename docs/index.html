@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="it"><head>
+<html class="dark" lang="en" data-i18n-title="home.title"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>ALL IN ONE UI - High-Performance Media Launcher</title>
@@ -135,33 +135,39 @@
 <img alt="ALL IN ONE UI Logo" class="h-10 w-auto object-contain" src="assets/img-08.png"/>
 <span class="font-display-lg text-headline-md font-extrabold bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text tracking-tighter">ALL IN ONE UI</span>
 </div>
-<div class="hidden md:flex items-center gap-gutter"><a class="text-[#ffc400] font-bold border-b-2 border-[#ffc400] pb-1" href="index.html">Home</a>
-<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="caratteristiche.html">Caratteristiche</a>
-<a class="text-on-surface-variant font-medium hover:text-[#f50057] transition-colors duration-300" href="temi.html">Temi</a>
-<a class="text-on-surface-variant font-medium hover:text-[#ffc400] transition-colors duration-300" href="download.html">Download</a></div>
-<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#f50057] to-[#ffc400] text-white font-label-bold px-lg py-sm rounded-full hover:shadow-[0_0_15px_rgba(245,0,87,0.5)] transition-all inline-block">
+<div class="hidden md:flex items-center gap-gutter"><a class="text-[#ffc400] font-bold border-b-2 border-[#ffc400] pb-1" href="index.html" data-i18n="nav.home">Home</a>
+<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="caratteristiche.html" data-i18n="nav.features">Caratteristiche</a>
+<a class="text-on-surface-variant font-medium hover:text-[#f50057] transition-colors duration-300" href="temi.html" data-i18n="nav.themes">Temi</a>
+<a class="text-on-surface-variant font-medium hover:text-[#ffc400] transition-colors duration-300" href="download.html" data-i18n="nav.download">Download</a></div>
+<div class="flex items-center gap-sm">
+<button id="lang-toggle" type="button" class="text-on-surface-variant hover:text-[#00e5ff] border border-outline-variant/40 rounded-full px-sm py-xs text-label-sm font-label-bold transition-colors flex items-center gap-xs" aria-label="Switch language" title="Switch language">
+<span class="material-symbols-outlined text-[16px]">language</span>
+<span data-lang-label>EN</span>
+</button>
+<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#f50057] to-[#ffc400] text-white font-label-bold px-lg py-sm rounded-full hover:shadow-[0_0_15px_rgba(245,0,87,0.5)] transition-all inline-block" data-i18n="nav.cta">
             Download Alpha
         </a>
+</div>
 </nav>
 <!-- Hero Section -->
 <header class="relative min-h-[921px] flex items-center justify-center pt-xxl px-margin-mobile md:px-margin-desktop overflow-hidden">
 <div class="absolute inset-0 z-0 opacity-40 mix-blend-screen" data-alt="A deep space nebula background with swirling purple and dark blue cosmic dust. Brilliant, sharp stars pierce through the atmospheric gases. The lighting is cinematic, creating a sense of infinite, immersive depth. High-contrast elements suggest an advanced, premium technology aesthetic. The overall mood is mysterious yet powerful." style="background-image: url('assets/img-09.png'); background-size: cover; background-position: center;"></div>
 <div class="absolute inset-0 z-0 bg-gradient-to-b from-transparent to-[#131313]"></div>
 <div class="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center gap-lg">
-<h1 class="font-display-lg text-display-lg text-on-surface">
+<h1 class="font-display-lg text-display-lg text-on-surface" data-i18n="home.hero.h1">
                 ALL IN ONE UI: <span class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text">Cinematic Launcher System</span>
 </h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl" data-i18n="home.hero.sub">
                 Launcher unico per giochi, emulatori, app, streaming e media locali.
             </p>
 <div class="flex flex-col sm:flex-row gap-md mt-md">
-<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-white font-label-bold px-xl py-md rounded-lg transition-all shadow-[0_0_20px_rgba(245,0,87,0.4)] hover:shadow-[0_0_30px_rgba(0,229,255,0.6)] hover:scale-105 inline-block">
+<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-white font-label-bold px-xl py-md rounded-lg transition-all shadow-[0_0_20px_rgba(245,0,87,0.4)] hover:shadow-[0_0_30px_rgba(0,229,255,0.6)] hover:scale-105 inline-block" data-i18n="home.hero.cta1">
                     Scarica Alpha Gratis
                 </a>
 <a href="caratteristiche.html" class="glass-panel text-on-surface font-label-bold px-xl py-md rounded-lg hover:border-[#00e5ff] hover:text-[#00e5ff] transition-colors flex items-center gap-sm">
 <span class="material-symbols-outlined">play_circle</span>
-                    Guarda le Caratteristiche
-                </a>
+<span data-i18n="home.hero.cta2">Guarda le Caratteristiche</span>
+</a>
 </div>
 </div>
 </header>
@@ -173,24 +179,24 @@
 <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-[#00e5ff] border border-[#00e5ff]/30 shadow-[0_0_15px_rgba(0,229,255,0.2)]">
 <span class="material-symbols-outlined text-headline-md" style="font-variation-settings: 'FILL' 1;">sports_esports</span>
 </div>
-<h3 class="font-headline-lg text-headline-md text-on-surface">Home (Recenti)</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Accedi rapidamente ai tuoi giochi e app usati di recente per tornare subito all'azione.</p>
+<h3 class="font-headline-lg text-headline-md text-on-surface" data-i18n="home.card1.t">Home (Recenti)</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="home.card1.d">Accedi rapidamente ai tuoi giochi e app usati di recente per tornare subito all'azione.</p>
 </div>
 <!-- Card 2 -->
 <div class="glass-panel p-xl rounded-xl glow-hover flex flex-col gap-md">
 <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-[#f50057] border border-[#f50057]/30 shadow-[0_0_15px_rgba(245,0,87,0.2)]">
 <span class="material-symbols-outlined text-headline-md" style="font-variation-settings: 'FILL' 1;">library_books</span>
 </div>
-<h3 class="font-headline-lg text-headline-md text-on-surface">Giochi (Libreria con filtri)</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Organizza e filtra la tua vasta libreria di giochi per PC, emulatori e app in un'unica interfaccia pulita.</p>
+<h3 class="font-headline-lg text-headline-md text-on-surface" data-i18n="home.card2.t">Giochi (Libreria con filtri)</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="home.card2.d">Organizza e filtra la tua vasta libreria di giochi per PC, emulatori e app in un'unica interfaccia pulita.</p>
 </div>
 <!-- Card 3 -->
 <div class="glass-panel p-xl rounded-xl glow-hover flex flex-col gap-md">
 <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-[#ffc400] border border-[#ffc400]/30 shadow-[0_0_15px_rgba(255,196,0,0.2)]">
 <span class="material-symbols-outlined text-headline-md" style="font-variation-settings: 'FILL' 1;">movie</span>
 </div>
-<h3 class="font-headline-lg text-headline-md text-on-surface">Streaming (Hero, Servizi, Libreria)</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Esplora i servizi di streaming e la tua libreria multimediale locale con un'esperienza cinematografica.</p>
+<h3 class="font-headline-lg text-headline-md text-on-surface" data-i18n="home.card3.t">Streaming (Hero, Servizi, Libreria)</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="home.card3.d">Esplora i servizi di streaming e la tua libreria multimediale locale con un'esperienza cinematografica.</p>
 </div>
 </div>
 </section>
@@ -199,14 +205,14 @@
 <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#00e5ff]/5 to-transparent pointer-events-none"></div>
 <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center gap-xxl relative z-10">
 <div class="flex-1 space-y-lg">
-<h2 class="font-display-lg text-headline-lg text-on-surface">Impostazioni Avanzate</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">
+<h2 class="font-display-lg text-headline-lg text-on-surface" data-i18n="home.set.t">Impostazioni Avanzate</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant" data-i18n="home.set.d">
                     Configura ogni aspetto della tua esperienza. Personalizza i controlli, l'aspetto visivo e le opzioni di integrazione per adattare perfettamente ALL IN ONE UI al tuo setup.
                 </p>
 <ul class="space-y-sm font-body-md text-body-md text-on-surface-variant">
-<li class="flex items-center gap-sm"><span class="material-symbols-outlined text-[#00e5ff]">check_circle</span> Personalizzazione Tema</li>
-<li class="flex items-center gap-sm"><span class="material-symbols-outlined text-[#f50057]">check_circle</span> Gestione Librerie</li>
-<li class="flex items-center gap-sm"><span class="material-symbols-outlined text-[#ffc400]">check_circle</span> Opzioni Controller</li>
+<li class="flex items-center gap-sm"><span class="material-symbols-outlined text-[#00e5ff]">check_circle</span> <span data-i18n="home.set.li1">Personalizzazione Tema</span></li>
+<li class="flex items-center gap-sm"><span class="material-symbols-outlined text-[#f50057]">check_circle</span> <span data-i18n="home.set.li2">Gestione Librerie</span></li>
+<li class="flex items-center gap-sm"><span class="material-symbols-outlined text-[#ffc400]">check_circle</span> <span data-i18n="home.set.li3">Opzioni Controller</span></li>
 </ul>
 </div>
 <div class="flex-1 flex justify-center relative">
@@ -220,9 +226,9 @@
 <div class="max-w-3xl mx-auto glass-panel p-xxl rounded-2xl border border-[#f50057]/30 relative overflow-hidden">
 <div class="absolute inset-0 bg-gradient-to-tr from-[#f50057]/20 via-[#ffc400]/10 to-transparent"></div>
 <div class="relative z-10 flex flex-col items-center gap-lg">
-<h2 class="font-display-lg text-headline-lg text-on-surface">Pronto a rivoluzionare il tuo salotto?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">Unisciti ai beta tester e trasforma il tuo PC in una console di fascia altissima.</p>
-<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-white font-label-bold px-xxl py-md rounded-lg transition-all shadow-[0_0_20px_rgba(245,0,87,0.4)] hover:shadow-[0_0_30px_rgba(255,196,0,0.6)] hover:scale-105 mt-md text-body-lg inline-block">
+<h2 class="font-display-lg text-headline-lg text-on-surface" data-i18n="home.cta.t">Pronto a rivoluzionare il tuo salotto?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant" data-i18n="home.cta.d">Unisciti ai beta tester e trasforma il tuo PC in una console di fascia altissima.</p>
+<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-white font-label-bold px-xxl py-md rounded-lg transition-all shadow-[0_0_20px_rgba(245,0,87,0.4)] hover:shadow-[0_0_30px_rgba(255,196,0,0.6)] hover:scale-105 mt-md text-body-lg inline-block" data-i18n="home.cta.btn">
                     Scarica l'Alpha Oggi
                 </a>
 </div>
@@ -234,12 +240,13 @@
 <img alt="ALL IN ONE UI Logo" class="h-8 w-auto object-contain" src="assets/img-08.png"/>
 <span class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text">ALL IN ONE UI</span>
 </div></div>
-<div class="font-body-md text-label-sm text-on-surface dark:text-on-surface text-center">
-            Â© 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha
+<div class="font-body-md text-label-sm text-on-surface dark:text-on-surface text-center" data-i18n="footer.copy">
+            © 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha
         </div>
-<div class="flex gap-lg"><a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="index.html">Home</a>
-<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#f50057] transition-all" href="caratteristiche.html">Caratteristiche</a>
-<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#ffc400] transition-all" href="temi.html">Temi</a>
-<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="download.html">Download</a></div>
+<div class="flex gap-lg"><a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="index.html" data-i18n="nav.home">Home</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#f50057] transition-all" href="caratteristiche.html" data-i18n="nav.features">Caratteristiche</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#ffc400] transition-all" href="temi.html" data-i18n="nav.themes">Temi</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="download.html" data-i18n="nav.download">Download</a></div>
 </footer>
+<script src="i18n.js"></script>
 </body></html>

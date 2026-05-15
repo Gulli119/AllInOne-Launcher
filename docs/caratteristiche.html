@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="it"><head>
+<html class="dark" lang="en" data-i18n-title="feat.title"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Caratteristiche - ALL IN ONE UI</title>
@@ -140,41 +140,47 @@
 <img alt="ALL IN ONE UI Logo" class="h-10 w-auto object-contain" src="assets/img-08.png"/>
 <span class="font-display-lg text-headline-md font-extrabold bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text tracking-tighter">ALL IN ONE UI</span>
 </div>
-<div class="hidden md:flex items-center gap-gutter"><a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="index.html">Home</a>
-<a class="text-[#ffc400] font-bold border-b-2 border-[#ffc400] pb-1" href="caratteristiche.html">Caratteristiche</a>
-<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="temi.html">Temi</a>
-<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="download.html">Download</a></div>
-<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#f50057] to-[#ffc400] text-white font-label-bold px-lg py-sm rounded-full hover:shadow-[0_0_15px_rgba(245,0,87,0.5)] transition-all inline-block">
+<div class="hidden md:flex items-center gap-gutter"><a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="index.html" data-i18n="nav.home">Home</a>
+<a class="text-[#ffc400] font-bold border-b-2 border-[#ffc400] pb-1" href="caratteristiche.html" data-i18n="nav.features">Caratteristiche</a>
+<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="temi.html" data-i18n="nav.themes">Temi</a>
+<a class="text-on-surface-variant font-medium hover:text-[#00e5ff] transition-colors duration-300" href="download.html" data-i18n="nav.download">Download</a></div>
+<div class="flex items-center gap-sm">
+<button id="lang-toggle" type="button" class="text-on-surface-variant hover:text-[#00e5ff] border border-outline-variant/40 rounded-full px-sm py-xs text-label-sm font-label-bold transition-colors flex items-center gap-xs" aria-label="Switch language" title="Switch language">
+<span class="material-symbols-outlined text-[16px]">language</span>
+<span data-lang-label>EN</span>
+</button>
+<a href="download/all-in-one-launcher-setup.exe" class="bg-gradient-to-r from-[#f50057] to-[#ffc400] text-white font-label-bold px-lg py-sm rounded-full hover:shadow-[0_0_15px_rgba(245,0,87,0.5)] transition-all inline-block" data-i18n="nav.cta">
             Download Alpha
         </a>
+</div>
 </nav>
 <main class="flex-grow pt-xxl pb-xxl px-gutter md:px-margin-desktop mt-[80px]">
 <!-- Header Section -->
 <header class="text-center mb-xxl py-xl">
-<h1 class="font-display-lg text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-pink-500 to-orange-500 mb-md drop-shadow-[0_0_15px_rgba(236,72,153,0.2)]">Caratteristiche &amp; Specifiche Tecniche</h1>
-<p class="font-body-lg text-white/80 max-w-3xl mx-auto">Esplora le fondamenta di un launcher progettato per le prestazioni assolute. Nessun compromesso tra estetica cinematografica e reattivitÃ  istantanea.</p>
+<h1 class="font-display-lg text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-pink-500 to-orange-500 mb-md drop-shadow-[0_0_15px_rgba(236,72,153,0.2)]" data-i18n="feat.h1">Caratteristiche &amp; Specifiche Tecniche</h1>
+<p class="font-body-lg text-white/80 max-w-3xl mx-auto" data-i18n="feat.sub">Esplora le fondamenta di un launcher progettato per le prestazioni assolute. Nessun compromesso tra estetica cinematografica e reattivitÃ  istantanea.</p>
 </header>
 <!-- Potenza Sotto il Cofano -->
 <section class="mb-xxl">
 <div class="flex items-center gap-sm mb-lg">
 <span class="material-symbols-outlined text-cyan-400 text-headline-lg drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">speed</span>
-<h2 class="font-headline-lg text-white">Potenza Sotto il Cofano</h2>
+<h2 class="font-headline-lg text-white" data-i18n="feat.s1.t">Potenza Sotto il Cofano</h2>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-lg">
 <div class="glass-panel rounded-xl p-lg flex flex-col">
 <span class="material-symbols-outlined text-pink-500 text-[40px] mb-md drop-shadow-[0_0_8px_rgba(236,72,153,0.5)]">memory</span>
-<h3 class="font-headline-md text-white mb-sm">Low Latency Engine</h3>
-<p class="font-body-md text-white/70">Architettura ottimizzata per ridurre al minimo l'input lag. Navigazione fluida a 60fps costanti anche su hardware di fascia media.</p>
+<h3 class="font-headline-md text-white mb-sm" data-i18n="feat.s1.c1.t">Low Latency Engine</h3>
+<p class="font-body-md text-white/70" data-i18n="feat.s1.c1.d">Architettura ottimizzata per ridurre al minimo l'input lag. Navigazione fluida a 60fps costanti anche su hardware di fascia media.</p>
 </div>
 <div class="glass-panel rounded-xl p-lg flex flex-col">
 <span class="material-symbols-outlined text-pink-500 text-[40px] mb-md drop-shadow-[0_0_8px_rgba(236,72,153,0.5)]">sports_esports</span>
-<h3 class="font-headline-md text-white mb-sm">Supporto Nativo Controller (XInput)</h3>
-<p class="font-body-md text-white/70">Integrazione profonda per pad Xbox (XInput). Navigazione totale dell'interfaccia. Include la Kill-combo (Back+Start) per terminare istantaneamente qualsiasi gioco e tornare al launcher.</p>
+<h3 class="font-headline-md text-white mb-sm" data-i18n="feat.s1.c2.t">Supporto Nativo Controller (XInput)</h3>
+<p class="font-body-md text-white/70" data-i18n="feat.s1.c2.d">Integrazione profonda per pad Xbox (XInput). Navigazione totale dell'interfaccia. Include la Kill-combo (Back+Start) per terminare istantaneamente qualsiasi gioco e tornare al launcher.</p>
 </div>
 <div class="glass-panel rounded-xl p-lg flex flex-col">
 <span class="material-symbols-outlined text-pink-500 text-[40px] mb-md drop-shadow-[0_0_8px_rgba(236,72,153,0.5)]">monitoring</span>
-<h3 class="font-headline-md text-white mb-sm">Telemetria Leggera</h3>
-<p class="font-body-md text-white/70">Consumo di risorse ridotto all'osso in background per garantire che tutta la potenza della CPU/GPU sia dedicata ai tuoi giochi.</p>
+<h3 class="font-headline-md text-white mb-sm" data-i18n="feat.s1.c3.t">Telemetria Leggera</h3>
+<p class="font-body-md text-white/70" data-i18n="feat.s1.c3.d">Consumo di risorse ridotto all'osso in background per garantire che tutta la potenza della CPU/GPU sia dedicata ai tuoi giochi.</p>
 </div>
 </div>
 </section>
@@ -182,31 +188,31 @@
 <section class="mb-xxl">
 <div class="flex items-center gap-sm mb-lg">
 <span class="material-symbols-outlined text-cyan-400 text-headline-lg drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">hub</span>
-<h2 class="font-headline-lg text-white">Ecosistema Aperto</h2>
+<h2 class="font-headline-lg text-white" data-i18n="feat.s2.t">Ecosistema Aperto</h2>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-lg items-center">
 <div class="glass-panel rounded-xl p-lg h-full">
-<h3 class="font-headline-md text-white mb-md">La Tua Libreria, Unificata</h3>
+<h3 class="font-headline-md text-white mb-md" data-i18n="feat.s2.h">La Tua Libreria, Unificata</h3>
 <ul class="space-y-md">
 <li class="flex items-start gap-sm">
 <span class="material-symbols-outlined text-cyan-400 mt-xs drop-shadow-[0_0_5px_rgba(34,211,238,0.4)]">check_circle</span>
 <div>
-<strong class="font-label-bold text-white block">Lancio 1-Click</strong>
-<span class="font-body-md text-white/70">Avvia giochi PC, mod complesse o rom emulate con un singolo input, senza passaggi intermedi.</span>
+<strong class="font-label-bold text-white block" data-i18n="feat.s2.li1.t">Lancio 1-Click</strong>
+<span class="font-body-md text-white/70" data-i18n="feat.s2.li1.d">Avvia giochi PC, mod complesse o rom emulate con un singolo input, senza passaggi intermedi.</span>
 </div>
 </li>
 <li class="flex items-start gap-sm">
 <span class="material-symbols-outlined text-cyan-400 mt-xs drop-shadow-[0_0_5px_rgba(34,211,238,0.4)]">check_circle</span>
 <div>
-<strong class="font-label-bold text-white block">Integrazione Emulazione</strong>
-<span class="font-body-md text-white/70">Supporto trasparente per i principali emulatori (RetroArch, RPCS3, Yuzu). Gli argomenti di riga di comando sono gestiti internamente.</span>
+<strong class="font-label-bold text-white block" data-i18n="feat.s2.li2.t">Integrazione Emulazione</strong>
+<span class="font-body-md text-white/70" data-i18n="feat.s2.li2.d">Supporto trasparente per i principali emulatori (RetroArch, RPCS3, Yuzu). Gli argomenti di riga di comando sono gestiti internamente.</span>
 </div>
 </li>
 <li class="flex items-start gap-sm">
 <span class="material-symbols-outlined text-cyan-400 mt-xs drop-shadow-[0_0_5px_rgba(34,211,238,0.4)]">check_circle</span>
 <div>
-<strong class="font-label-bold text-white block">Gestione Mod</strong>
-<span class="font-body-md text-white/70">Supporto integrato per launcher di terze parti come r2modman. PossibilitÃ  di lanciare profili mod specifici passando i corretti segnali/argomenti al profilo.</span>
+<strong class="font-label-bold text-white block" data-i18n="feat.s2.li3.t">Gestione Mod</strong>
+<span class="font-body-md text-white/70" data-i18n="feat.s2.li3.d">Supporto integrato per launcher di terze parti come r2modman. PossibilitÃ  di lanciare profili mod specifici passando i corretti segnali/argomenti al profilo.</span>
 </div>
 </li>
 </ul>
@@ -221,24 +227,24 @@
 <section class="mb-xxl">
 <div class="flex items-center gap-sm mb-lg">
 <span class="material-symbols-outlined text-cyan-400 text-headline-lg drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">movie</span>
-<h2 class="font-headline-lg text-white">Media Center Avanzato</h2>
+<h2 class="font-headline-lg text-white" data-i18n="feat.s3.t">Media Center Avanzato</h2>
 </div>
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-lg">
 <div class="lg:col-span-8 glass-panel rounded-xl p-lg bg-center bg-cover relative overflow-hidden group" data-alt="A cinematic home theater setup in a dimly lit room. A large screen displays a vibrant, high-contrast abstract digital art piece with deep purples and bright amber accents, reflecting the light onto a sleek entertainment console below. The atmosphere is immersive, premium, and technologically advanced, echoing a high-end gaming command center." style="background-image: url('assets/img-02.png');">
 <div class="absolute inset-0 bg-[#050508]/70 group-hover:bg-[#050508]/50 transition-colors duration-500"></div>
 <div class="relative z-10 flex flex-col justify-end h-full min-h-[300px]">
-<h3 class="font-display-lg text-white mb-sm">Oltre il Gaming</h3>
-<p class="font-body-lg text-white/80 max-w-2xl">Un'esperienza Home Theater completa. Organizza la tua libreria locale di film e serie TV con metadati scaricati automaticamente, e lancia i tuoi servizi di streaming preferiti dalla stessa interfaccia.</p>
+<h3 class="font-display-lg text-white mb-sm" data-i18n="feat.s3.h">Oltre il Gaming</h3>
+<p class="font-body-lg text-white/80 max-w-2xl" data-i18n="feat.s3.d">Un'esperienza Home Theater completa. Organizza la tua libreria locale di film e serie TV con metadati scaricati automaticamente, e lancia i tuoi servizi di streaming preferiti dalla stessa interfaccia.</p>
 </div>
 </div>
 <div class="lg:col-span-4 flex flex-col gap-lg">
 <div class="glass-panel rounded-xl p-md flex-1">
-<h4 class="font-headline-md text-white mb-sm flex items-center gap-xs"><span class="material-symbols-outlined text-pink-500">folder_special</span> Libreria Locale</h4>
-<p class="font-body-md text-white/70">Scraping automatico di cover, trame e cast per i tuoi file video locali.</p>
+<h4 class="font-headline-md text-white mb-sm flex items-center gap-xs"><span class="material-symbols-outlined text-pink-500">folder_special</span> <span data-i18n="feat.s3.b1.t">Libreria Locale</span></h4>
+<p class="font-body-md text-white/70" data-i18n="feat.s3.b1.d">Scraping automatico di cover, trame e cast per i tuoi file video locali.</p>
 </div>
 <div class="glass-panel rounded-xl p-md flex-1">
-<h4 class="font-headline-md text-white mb-sm flex items-center gap-xs"><span class="material-symbols-outlined text-pink-500">cast</span> Streaming</h4>
-<p class="font-body-md text-white/70">Integrazione diretta tramite browser Chromium in modalitÃ  app/fullscreen (kiosk) per Netflix, Prime, YouTube. Nessun disturbo visivo durante la riproduzione.</p>
+<h4 class="font-headline-md text-white mb-sm flex items-center gap-xs"><span class="material-symbols-outlined text-pink-500">cast</span> <span data-i18n="feat.s3.b2.t">Streaming</span></h4>
+<p class="font-body-md text-white/70" data-i18n="feat.s3.b2.d">Integrazione diretta tramite browser Chromium in modalitÃ  app/fullscreen (kiosk) per Netflix, Prime, YouTube. Nessun disturbo visivo durante la riproduzione.</p>
 </div>
 </div>
 </div>
@@ -252,27 +258,27 @@
 <div class="lg:w-2/3">
 <div class="flex items-center gap-md mb-md">
 <span class="material-symbols-outlined text-cyan-400 text-[60px] drop-shadow-[0_0_10px_rgba(34,211,238,0.6)]" style="font-variation-settings: 'FILL' 1;">science</span>
-<h2 class="font-display-lg text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-pink-500 to-orange-500">Stato: Alpha Pubblica</h2>
+<h2 class="font-display-lg text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-pink-500 to-orange-500" data-i18n="feat.s4.t">Stato: Alpha Pubblica</h2>
 </div>
-<p class="font-body-lg text-white/80 mb-lg">
+<p class="font-body-lg text-white/80 mb-lg" data-i18n="feat.s4.d">
             ALL IN ONE UI Ã¨ attualmente nelle prime fasi di sviluppo (v0.8.2-alpha). L'architettura core (XInput, integrazione Chromium, parsing argomenti) Ã¨ stabile, ma il tuo contributo Ã¨ fondamentale. Segnala eventuali problemi con la Kill-combo o con l'avvio di profili r2modman.
         </p>
 <div class="flex flex-wrap gap-md">
 <button class="bg-white/5 border border-white/10 text-white font-label-bold px-lg py-sm rounded hover:bg-white/10 transition-all flex items-center gap-sm">
-<span class="material-symbols-outlined text-[18px]">bug_report</span> Report Bug
+<span class="material-symbols-outlined text-[18px]">bug_report</span> <span data-i18n="feat.s4.bug">Report Bug</span>
             </button>
 <button class="bg-white/5 border border-white/10 text-white font-label-bold px-lg py-sm rounded hover:bg-white/10 transition-all flex items-center gap-sm">
-<span class="material-symbols-outlined text-[18px]">forum</span> Discord Community
+<span class="material-symbols-outlined text-[18px]">forum</span> <span data-i18n="feat.s4.discord">Discord Community</span>
             </button>
 </div>
 </div>
 <div class="lg:w-1/3 w-full bg-white/5 p-lg rounded-xl border border-white/10 backdrop-blur-sm">
 <h3 class="font-headline-md text-white mb-md flex items-center gap-xs">
-<span class="material-symbols-outlined text-cyan-400">rate_review</span> Aiutaci a Migliorare
+<span class="material-symbols-outlined text-cyan-400">rate_review</span> <span data-i18n="feat.fb.t">Aiutaci a Migliorare</span>
         </h3>
 <form id="feedback-form" class="space-y-md">
 <div>
-<label class="block font-label-sm text-white/60 mb-xs">Valuta la tua esperienza</label>
+<label class="block font-label-sm text-white/60 mb-xs" data-i18n="feat.fb.lbl1">Valuta la tua esperienza</label>
 <div id="star-rating" class="flex gap-xs text-pink-500" data-value="0">
 <span data-star="1" class="material-symbols-outlined cursor-pointer hover:scale-110 hover:text-pink-400 transition-all" style="font-variation-settings: 'FILL' 0;">star</span>
 <span data-star="2" class="material-symbols-outlined cursor-pointer hover:scale-110 hover:text-pink-400 transition-all" style="font-variation-settings: 'FILL' 0;">star</span>
@@ -282,11 +288,11 @@
 </div>
 </div>
 <div>
-<label class="block font-label-sm text-white/60 mb-xs">I tuoi suggerimenti</label>
-<textarea id="feedback-message" required class="w-full bg-black/30 border border-white/10 rounded p-sm text-body-md text-white focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 outline-none transition-all h-24 resize-none placeholder-white/30" placeholder="Cosa possiamo migliorare?"></textarea>
+<label class="block font-label-sm text-white/60 mb-xs" data-i18n="feat.fb.lbl2">I tuoi suggerimenti</label>
+<textarea id="feedback-message" required class="w-full bg-black/30 border border-white/10 rounded p-sm text-body-md text-white focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 outline-none transition-all h-24 resize-none placeholder-white/30" placeholder="Cosa possiamo migliorare?" data-i18n-placeholder="feat.fb.ph"></textarea>
 </div>
 <button id="feedback-submit" class="w-full bg-gradient-to-r from-cyan-400 via-pink-500 to-orange-500 text-white font-label-bold py-sm rounded-full shadow-[0_0_15px_rgba(34,211,238,0.3)] hover:shadow-[0_0_25px_rgba(236,72,153,0.5)] transition-all flex justify-center items-center gap-sm disabled:opacity-50 disabled:cursor-not-allowed" type="submit">
-<span class="material-symbols-outlined text-[20px]">send</span> <span id="feedback-btn-label">Invia Feedback</span>
+<span class="material-symbols-outlined text-[20px]">send</span> <span id="feedback-btn-label" data-i18n="feat.fb.send">Invia Feedback</span>
             </button>
 <p id="feedback-status" class="text-center text-label-sm hidden"></p>
 </form>
@@ -301,14 +307,15 @@
 <img alt="ALL IN ONE UI Logo" class="h-8 w-auto object-contain" src="assets/img-08.png"/>
 <span class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text">ALL IN ONE UI</span>
 </div></div>
-<div class="font-body-md text-label-sm text-on-surface dark:text-on-surface text-center">
+<div class="font-body-md text-label-sm text-on-surface dark:text-on-surface text-center" data-i18n="footer.copy">
             © 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha
         </div>
-<div class="flex gap-lg"><a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="index.html">Home</a>
-<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#f50057] transition-all" href="caratteristiche.html">Caratteristiche</a>
-<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#ffc400] transition-all" href="temi.html">Temi</a>
-<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="download.html">Download</a></div>
+<div class="flex gap-lg"><a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="index.html" data-i18n="nav.home">Home</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#f50057] transition-all" href="caratteristiche.html" data-i18n="nav.features">Caratteristiche</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#ffc400] transition-all" href="temi.html" data-i18n="nav.themes">Temi</a>
+<a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="download.html" data-i18n="nav.download">Download</a></div>
 </footer>
+<script src="i18n.js"></script>
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
 import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
@@ -344,15 +351,17 @@ const msg = document.getElementById("feedback-message");
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
+  const i18n = window.AIO_I18N || { t: (k) => k };
   if (rating === 0) {
-    status.textContent = "Seleziona almeno una stella.";
+    status.textContent = i18n.t("feat.fb.err.star");
     status.className = "text-center text-label-sm text-pink-400";
+    status.classList.remove("hidden");
     return;
   }
   if (!msg.value.trim()) return;
 
   btn.disabled = true;
-  btnLabel.textContent = "Invio...";
+  btnLabel.textContent = i18n.t("feat.fb.sending");
   status.classList.add("hidden");
 
   try {
@@ -363,19 +372,19 @@ form.addEventListener("submit", async (e) => {
       createdAt: serverTimestamp(),
       userAgent: navigator.userAgent
     });
-    status.textContent = "Grazie! Feedback inviato.";
+    status.textContent = i18n.t("feat.fb.ok");
     status.className = "text-center text-label-sm text-cyan-400";
     status.classList.remove("hidden");
     form.reset();
     rating = 0;
     paintStars(0);
-    btnLabel.textContent = "Invia Feedback";
+    btnLabel.textContent = i18n.t("feat.fb.send");
   } catch (err) {
     console.error(err);
-    status.textContent = "Errore invio. Riprova.";
+    status.textContent = i18n.t("feat.fb.err.send");
     status.className = "text-center text-label-sm text-pink-400";
     status.classList.remove("hidden");
-    btnLabel.textContent = "Invia Feedback";
+    btnLabel.textContent = i18n.t("feat.fb.send");
   } finally {
     btn.disabled = false;
   }
