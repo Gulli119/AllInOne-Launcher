@@ -173,8 +173,8 @@
   T.it['dl.title'] = 'Download ALL IN ONE UI';
   T.en['dl.h1'] = 'Download ALL IN ONE UI Alpha';
   T.it['dl.h1'] = 'Scarica ALL IN ONE UI Alpha';
-  T.en['dl.sub'] = 'Turn your PC into a high-performance media hub. The ultimate experience for gaming and home theater. Public Alpha version v0.8.2.';
-  T.it['dl.sub'] = 'Trasforma il tuo PC in un hub multimediale ad alte prestazioni. L\'esperienza definitiva per il gaming e l\'home theater. Versione Alpha pubblica v0.8.2.';
+  T.en['dl.sub'] = 'Turn your PC into a high-performance game station and home theater. The ultimate experience right from your couch. Public alpha version v0.1.1.';
+  T.it['dl.sub'] = 'Trasforma il tuo PC in una game station e home theater ad alte prestazioni. L\'esperienza definitiva direttamente dal tuo divano. Versione Alpha pubblica v0.1.1.';
   T.en['dl.btn'] = 'Download for Windows 10/11';
   T.it['dl.btn'] = 'Download per Windows 10/11';
   T.en['dl.size'] = '(64-bit, 128MB)';
@@ -232,7 +232,7 @@
   T.en['lang.tooltip'] = 'Cambia in Italiano';
   T.it['lang.tooltip'] = 'Switch to English';
 
-                                  function getLang() {
+                                    function getLang() {
     try {
       const v = localStorage.getItem(STORAGE_KEY);
       return v === 'it' || v === 'en' ? v : DEFAULT_LANG;
