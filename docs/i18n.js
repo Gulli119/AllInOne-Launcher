@@ -17,8 +17,8 @@
   T.it['nav.download'] = 'Download';
   T.en['nav.cta'] = 'Download Alpha';
   T.it['nav.cta'] = 'Download Alpha';
-  T.en['footer.copy'] = '© 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha';
-  T.it['footer.copy'] = '© 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha';
+  T.en['footer.copy'] = '© 2026 ALL IN ONE UI. High-Performance Media Launcher. v0.1.1-alpha';
+  T.it['footer.copy'] = 'Â© 2026 ALL IN ONE UI. High-Performance Media Launcher. v0.1.1-alpha';
   T.en['home.title'] = 'ALL IN ONE UI - High-Performance Media Launcher';
   T.it['home.title'] = 'ALL IN ONE UI - High-Performance Media Launcher';
   T.en['home.hero.h1'] = 'ALL IN ONE UI: <span class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text">Cinematic Launcher System</span>';
@@ -97,20 +97,20 @@
   T.it['feat.s3.t'] = 'Media Center Avanzato';
   T.en['feat.s3.h'] = 'Beyond Gaming';
   T.it['feat.s3.h'] = 'Oltre il Gaming';
-  T.en['feat.s3.d'] = 'A complete Home Theater experience. Organize your local library of movies and TV shows with automatically downloaded metadata, and launch your favorite streaming services from the same interface.';
-  T.it['feat.s3.d'] = 'Un\'esperienza Home Theater completa. Organizza la tua libreria locale di film e serie TV con metadati scaricati automaticamente, e lancia i tuoi servizi di streaming preferiti dalla stessa interfaccia.';
+  T.en['feat.s3.d'] = 'A complete Home Theater experience. Organize your local library of movies and TV series and launch your favorite streaming services from the same interface.';
+  T.it['feat.s3.d'] = 'Un\'esperienza Home Theater completa. Organizza la tua libreria locale di film e serie TV e lancia i tuoi servizi di streaming preferiti dalla stessa interfaccia.';
   T.en['feat.s3.b1.t'] = 'Local Library';
   T.it['feat.s3.b1.t'] = 'Libreria Locale';
   T.en['feat.s3.b1.d'] = 'Automatic scraping of covers, plots and cast for your local video files.';
   T.it['feat.s3.b1.d'] = 'Scraping automatico di cover, trame e cast per i tuoi file video locali.';
   T.en['feat.s3.b2.t'] = 'Streaming';
   T.it['feat.s3.b2.t'] = 'Streaming';
-  T.en['feat.s3.b2.d'] = 'Direct integration via Chromium browser in app/fullscreen (kiosk) mode for Netflix, Prime, YouTube. No visual distractions during playback.';
-  T.it['feat.s3.b2.d'] = 'Integrazione diretta tramite browser Chromium in modalità app/fullscreen (kiosk) per Netflix, Prime, YouTube. Nessun disturbo visivo durante la riproduzione.';
+  T.en['feat.s3.b2.d'] = 'No visual disturbance during playback. Absolute convenience and total control via gamepad.';
+  T.it['feat.s3.b2.d'] = 'Nessun disturbo visivo durante la riproduzione. Comodità assoluta e controllo totale tramite gamepad.';
   T.en['feat.s4.t'] = 'Status: Public Alpha';
   T.it['feat.s4.t'] = 'Stato: Alpha Pubblica';
-  T.en['feat.s4.d'] = 'ALL IN ONE UI is currently in early development (v0.8.2-alpha). The core architecture (XInput, Chromium integration, argument parsing) is stable, but your contribution is essential. Please report any issues with the Kill-combo or with launching r2modman profiles.';
-  T.it['feat.s4.d'] = 'ALL IN ONE UI è attualmente nelle prime fasi di sviluppo (v0.8.2-alpha). L\'architettura core (XInput, integrazione Chromium, parsing argomenti) è stabile, ma il tuo contributo è fondamentale. Segnala eventuali problemi con la Kill-combo o con l\'avvio di profili r2modman.';
+  T.en['feat.s4.d'] = 'ALL IN ONE UI is currently in early development (v0.1.1-alpha). The core architecture is stable, but your contribution is essential. Please report any issues or bugs.';
+  T.it['feat.s4.d'] = 'L\'interfaccia utente ALL IN ONE è attualmente in fase di sviluppo iniziale (v0.1.1-alpha). L\'architettura di base è stabile, ma il tuo contributo è essenziale. Segnala eventuali problemi o bug.';
   T.en['feat.s4.bug'] = 'Report Bug';
   T.it['feat.s4.bug'] = 'Report Bug';
   T.en['feat.s4.discord'] = 'Discord Community';
@@ -232,7 +232,7 @@
   T.en['lang.tooltip'] = 'Cambia in Italiano';
   T.it['lang.tooltip'] = 'Switch to English';
 
-                        function getLang() {
+                                  function getLang() {
     try {
       const v = localStorage.getItem(STORAGE_KEY);
       return v === 'it' || v === 'en' ? v : DEFAULT_LANG;
