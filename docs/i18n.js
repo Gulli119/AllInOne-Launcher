@@ -7,7 +7,6 @@
     it: {}
   };
 
-  // Shared
   T.en['nav.home'] = 'Home';
   T.it['nav.home'] = 'Home';
   T.en['nav.features'] = 'Features';
@@ -20,14 +19,12 @@
   T.it['nav.cta'] = 'Download Alpha';
   T.en['footer.copy'] = '© 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha';
   T.it['footer.copy'] = '© 2024 ALL IN ONE UI. High-Performance Media Launcher. v0.8.2-alpha';
-
-  // index.html
   T.en['home.title'] = 'ALL IN ONE UI - High-Performance Media Launcher';
   T.it['home.title'] = 'ALL IN ONE UI - High-Performance Media Launcher';
   T.en['home.hero.h1'] = 'ALL IN ONE UI: <span class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text">Cinematic Launcher System</span>';
   T.it['home.hero.h1'] = 'ALL IN ONE UI: <span class="bg-gradient-to-r from-[#00e5ff] via-[#f50057] to-[#ffc400] text-transparent bg-clip-text">Cinematic Launcher System</span>';
-  T.en['home.hero.sub'] = 'All-in-one launcher for games, emulators, apps, streaming and local media.';
-  T.it['home.hero.sub'] = 'Launcher unico per giochi, emulatori, app, streaming e media locali.';
+  T.en['home.hero.sub'] = 'All-in-one launcher for games, emulators, appsand streaming.';
+  T.it['home.hero.sub'] = 'Launcher all-in-one per giochi, emulatori, app e streaming.';
   T.en['home.hero.cta1'] = 'Get the Free Alpha';
   T.it['home.hero.cta1'] = 'Scarica Alpha Gratis';
   T.en['home.hero.cta2'] = 'See the Features';
@@ -58,42 +55,40 @@
   T.it['home.cta.t'] = 'Pronto a rivoluzionare il tuo salotto?';
   T.en['home.cta.d'] = 'Join the beta testers and turn your PC into a top-tier console.';
   T.it['home.cta.d'] = 'Unisciti ai beta tester e trasforma il tuo PC in una console di fascia altissima.';
-  T.en['home.cta.btn'] = 'Download the Alpha Today';
-  T.it['home.cta.btn'] = 'Scarica l\'Alpha Oggi';
-
-  // caratteristiche.html
+  T.en['home.cta.btn'] = 'Download Alpha';
+  T.it['home.cta.btn'] = 'Scarica l\'Alpha';
   T.en['feat.title'] = 'Features - ALL IN ONE UI';
   T.it['feat.title'] = 'Caratteristiche - ALL IN ONE UI';
   T.en['feat.h1'] = 'Features &amp; Technical Specs';
   T.it['feat.h1'] = 'Caratteristiche &amp; Specifiche Tecniche';
-  T.en['feat.sub'] = 'Explore the foundations of a launcher built for absolute performance. No compromise between cinematic aesthetics and instant responsiveness.';
-  T.it['feat.sub'] = 'Esplora le fondamenta di un launcher progettato per le prestazioni assolute. Nessun compromesso tra estetica cinematografica e reattività istantanea.';
+  T.en['feat.sub'] = 'Explore the foundations of a launcher designed for absolute comfort.  No compromise between performance and comfort.';
+  T.it['feat.sub'] = 'Esplora le fondamenta di un launcher progettato per la comodità assolute.  Nessun compromesso tra performance e comfort.';
   T.en['feat.s1.t'] = 'Power Under the Hood';
   T.it['feat.s1.t'] = 'Potenza Sotto il Cofano';
   T.en['feat.s1.c1.t'] = 'Low Latency Engine';
   T.it['feat.s1.c1.t'] = 'Low Latency Engine';
-  T.en['feat.s1.c1.d'] = 'Optimized architecture to minimize input lag. Smooth 60fps navigation even on mid-range hardware.';
-  T.it['feat.s1.c1.d'] = 'Architettura ottimizzata per ridurre al minimo l\'input lag. Navigazione fluida a 60fps costanti anche su hardware di fascia media.';
+  T.en['feat.s1.c1.d'] = 'Optimized architecture to minimize lag input. Smooth navigation even on mid-range hardware.';
+  T.it['feat.s1.c1.d'] = 'Architettura ottimizzata per ridurre al minimo l\'input di lag. Navigazione fluida anche su hardware di fascia media.';
   T.en['feat.s1.c2.t'] = 'Native Controller Support (XInput)';
   T.it['feat.s1.c2.t'] = 'Supporto Nativo Controller (XInput)';
-  T.en['feat.s1.c2.d'] = 'Deep integration for Xbox pads (XInput). Full UI navigation. Includes the Kill-combo (Back+Start) to instantly close any game and return to the launcher.';
-  T.it['feat.s1.c2.d'] = 'Integrazione profonda per pad Xbox (XInput). Navigazione totale dell\'interfaccia. Include la Kill-combo (Back+Start) per terminare istantaneamente qualsiasi gioco e tornare al launcher.';
+  T.en['feat.s1.c2.d'] = 'Deep integration for Xbox pad (XInput). Full navigation of the interface. Includes special and configurable key combinations for additional functions.';
+  T.it['feat.s1.c2.d'] = 'Integrazione profonda per pad Xbox (XInput). Navigazione totale dell\'interfaccia. Include combinazioni tasti speciali e configuarabili per funzioni aggiuntive.';
   T.en['feat.s1.c3.t'] = 'Lightweight Telemetry';
   T.it['feat.s1.c3.t'] = 'Telemetria Leggera';
-  T.en['feat.s1.c3.d'] = 'Bare-minimum background resource usage to ensure all CPU/GPU power is dedicated to your games.';
-  T.it['feat.s1.c3.d'] = 'Consumo di risorse ridotto all\'osso in background per garantire che tutta la potenza della CPU/GPU sia dedicata ai tuoi giochi.';
+  T.en['feat.s1.c3.d'] = 'Reduced resource consumption in the background to ensure all CPU/GPU power is dedicated to your games.';
+  T.it['feat.s1.c3.d'] = 'Consumo risorse ridotto all\'osso in background per garantire che tutta la potenza della CPU/GPU sia dedicata ai tuoi giochi.';
   T.en['feat.s2.t'] = 'Open Ecosystem';
   T.it['feat.s2.t'] = 'Ecosistema Aperto';
   T.en['feat.s2.h'] = 'Your Library, Unified';
   T.it['feat.s2.h'] = 'La Tua Libreria, Unificata';
   T.en['feat.s2.li1.t'] = '1-Click Launch';
   T.it['feat.s2.li1.t'] = 'Lancio 1-Click';
-  T.en['feat.s2.li1.d'] = 'Launch PC games, complex mods or emulated ROMs with a single input, with no extra steps.';
-  T.it['feat.s2.li1.d'] = 'Avvia giochi PC, mod complesse o rom emulate con un singolo input, senza passaggi intermedi.';
+  T.en['feat.s2.li1.d'] = 'Launch PC games, mods or emulated ROMs with a single input with no extra steps.';
+  T.it['feat.s2.li1.d'] = 'Avvia giochi per PC, mod o Rom emulate con un singolo ingresso senza passaggi aggiuntivi.';
   T.en['feat.s2.li2.t'] = 'Emulation Integration';
   T.it['feat.s2.li2.t'] = 'Integrazione Emulazione';
-  T.en['feat.s2.li2.d'] = 'Transparent support for the major emulators (RetroArch, RPCS3, Yuzu). Command-line arguments are handled internally.';
-  T.it['feat.s2.li2.d'] = 'Supporto trasparente per i principali emulatori (RetroArch, RPCS3, Yuzu). Gli argomenti di riga di comando sono gestiti internamente.';
+  T.en['feat.s2.li2.d'] = 'Transparent support for the major emulators (working to expand support). Command-line arguments are handled internally.';
+  T.it['feat.s2.li2.d'] = 'Supporto trasparente per i principali emulatori (lavorando per espandere il supporto). Gli argomenti della riga di comando vengono gestiti internamente.';
   T.en['feat.s2.li3.t'] = 'Mod Management';
   T.it['feat.s2.li3.t'] = 'Gestione Mod';
   T.en['feat.s2.li3.d'] = 'Built-in support for third-party launchers like r2modman. You can launch specific mod profiles by passing the correct signals/arguments to the profile.';
@@ -138,8 +133,6 @@
   T.it['feat.fb.ok'] = 'Grazie! Feedback inviato.';
   T.en['feat.fb.err.send'] = 'Submission error. Please try again.';
   T.it['feat.fb.err.send'] = 'Errore invio. Riprova.';
-
-  // temi.html
   T.en['themes.title'] = 'ALL IN ONE UI - Themes &amp; Customization';
   T.it['themes.title'] = 'ALL IN ONE UI - Temi &amp; Personalizzazione';
   T.en['themes.h1'] = 'Your Launcher, <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-secondary-container to-tertiary">Your Style</span>';
@@ -176,8 +169,6 @@
   T.it['themes.adv.li2'] = 'Sfondo Immagine Personalizzato: Scegli la tua immagine preferita come sfondo.';
   T.en['themes.adv.li3'] = 'JSON Import: import full themes by defining design tokens via JSON files.';
   T.it['themes.adv.li3'] = 'Import JSON: Importa temi completi definendo i token di design tramite file JSON.';
-
-  // download.html
   T.en['dl.title'] = 'Download ALL IN ONE UI';
   T.it['dl.title'] = 'Download ALL IN ONE UI';
   T.en['dl.h1'] = 'Download ALL IN ONE UI Alpha';
@@ -238,12 +229,10 @@
   T.it['dl.comm.gh.t'] = 'GitHub Repository';
   T.en['dl.comm.gh.d'] = 'Source code and issue tracker';
   T.it['dl.comm.gh.d'] = 'Codice sorgente e issue tracker';
-
-  // Lang toggle button labels
   T.en['lang.tooltip'] = 'Cambia in Italiano';
   T.it['lang.tooltip'] = 'Switch to English';
 
-  function getLang() {
+                        function getLang() {
     try {
       const v = localStorage.getItem(STORAGE_KEY);
       return v === 'it' || v === 'en' ? v : DEFAULT_LANG;
