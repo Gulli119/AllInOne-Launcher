@@ -171,6 +171,12 @@
   T.it['themes.gallery'] = 'Galleria Temi';
   T.en['themes.hint'] = 'Hover or click a theme: the page previews it live. Leave or click again to revert. (Nothing is saved — changing page restores the site style.)';
   T.it['themes.hint'] = 'Passa il mouse o clicca un tema: la pagina lo adotta in anteprima. Esci o ri-clicca per tornare al default. (Nessuna impostazione salvata: cambiando pagina torna lo stile del sito.)';
+  T.en['themes.shots'] = 'Screenshots';
+  T.it['themes.shots'] = 'Screenshot';
+  T.en['themes.shots.d'] = 'The real launcher interface: library, home, streaming.';
+  T.it['themes.shots.d'] = 'L\'interfaccia reale del launcher: libreria, home, streaming.';
+  T.en['themes.shots.note'] = 'Empty slots: upload shot-1…shot-5.png to docs/assets (dashboard → Images).';
+  T.it['themes.shots.note'] = 'Slot in attesa: carica shot-1…shot-5.png in docs/assets (dashboard → Immagini).';
   T.en['themes.c1.tag'] = 'Minimal';
   T.it['themes.c1.tag'] = 'Minimal';
   T.en['themes.c1.t'] = 'Dark Minimal';
