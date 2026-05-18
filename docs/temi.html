@@ -159,53 +159,11 @@
 <!-- Theme Gallery (Bento Grid) -->
 <section class="flex flex-col gap-lg">
 <h2 class="font-headline-lg text-headline-lg text-on-surface uppercase border-b border-outline-variant/30 pb-sm" data-i18n="themes.gallery">Galleria Temi</h2>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-lg">
-<!-- Theme Card 1 -->
-<div class="glass-panel rounded-xl overflow-hidden group relative flex flex-col h-full border border-transparent hover:border-primary-fixed-dim transition-all duration-300 shadow-[0_0_0_rgba(255,184,0,0)] hover:shadow-[0_0_15px_rgba(255,184,0,0.3)]">
-<div class="aspect-video w-full bg-surface-container-high relative overflow-hidden">
-<img alt="Cinematic Dark Theme Preview" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" data-alt="A sleek, modern interface design overlaying a cinematic dark background. The scene features deep nebula purples and stark blacks, with a glowing amber highlight accentuating a media card. The overall mood is premium, immersive, and high-tech, reminiscent of a luxury home theater control panel." src="assets/img-10.png"/>
-<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-60"></div>
-<div class="absolute bottom-md left-md">
-<span class="bg-surface-container-highest/80 text-on-surface px-sm py-xs rounded-full font-label-sm backdrop-blur-md border border-outline-variant/50 text-primary" data-i18n="themes.c1.tag">Minimal</span>
-</div>
-</div>
-<div class="p-md flex flex-col gap-sm">
-<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="themes.c1.t">Dark Minimal</h3>
-<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2" data-i18n="themes.c1.d">Interfaccia pulita, toni scuri profondi, massima concentrazione sui tuoi contenuti multimediali.</p>
-</div>
-</div>
-<!-- Theme Card 2 -->
-<div class="glass-panel rounded-xl overflow-hidden group relative flex flex-col h-full border border-transparent hover:border-secondary-container transition-all duration-300 shadow-[0_0_0_rgba(20,209,255,0)] hover:shadow-[0_0_15px_rgba(20,209,255,0.3)]">
-<div class="aspect-video w-full bg-surface-container-high relative overflow-hidden">
-<img alt="Retro Arcade Theme Preview" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" data-alt="A retro-inspired user interface design preview. The background features a scanline texture over a dark teal and neon pink gradient. The interface elements use blocky, pixel-art inspired typography and vivid, high-contrast borders. The mood is nostalgic, energetic, and heavily inspired by 80s arcade cabinets." src="assets/img-11.png"/>
-<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-60"></div>
-<div class="absolute bottom-md left-md">
-<span class="bg-surface-container-highest/80 text-on-surface px-sm py-xs rounded-full font-label-sm backdrop-blur-md border border-outline-variant/50 text-secondary" data-i18n="themes.c2.tag">Neon</span>
-</div>
-</div>
-<div class="p-md flex flex-col gap-sm">
-<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="themes.c2.t">Cyber Neon</h3>
-<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2" data-i18n="themes.c2.d">Colori accesi, contrasti elevati e vibrazioni futuristiche per un setup che non passa inosservato.</p>
-</div>
-</div>
-<!-- Theme Card 3 -->
-<div class="glass-panel rounded-xl overflow-hidden group relative flex flex-col h-full border border-transparent hover:border-tertiary transition-all duration-300 shadow-[0_0_0_rgba(234,220,247,0)] hover:shadow-[0_0_15px_rgba(234,220,247,0.3)]">
-<div class="aspect-video w-full bg-surface-container-high relative overflow-hidden">
-<img alt="Minimal Clean Theme Preview" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" data-alt="A highly minimalist user interface design preview. The background is a solid, deep slate gray with almost no texture. The UI elements are strictly wireframe or use very subtle, low-contrast fills. Typography is stark white, sans-serif, and highly legible. The mood is clinical, efficient, and strictly functional." src="assets/img-12.png"/>
-<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-60"></div>
-<div class="absolute bottom-md left-md">
-<span class="bg-surface-container-highest/80 text-on-surface px-sm py-xs rounded-full font-label-sm backdrop-blur-md border border-outline-variant/50 text-tertiary" data-i18n="themes.c3.tag">Retro</span>
-</div>
-</div>
-<div class="p-md flex flex-col gap-sm">
-<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="themes.c3.t">Retro Arcade</h3>
-<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2" data-i18n="themes.c3.d">Nostalgia pura. Colori vibranti al neon, font pixelati opzionali e un sottile effetto scanline per i puristi del retro-gaming.</p>
-</div>
-</div>
-</div>
+<p class="font-body-md text-body-md text-on-surface-variant -mt-xs" data-i18n="themes.hint">Passa il mouse o clicca un tema: la pagina lo adotta in anteprima. Esci o ri-clicca per tornare al default. (Nessuna impostazione salvata: cambiando pagina torna lo stile del sito.)</p>
+<div id="theme-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-lg"></div>
 </section>
 <!-- Community Themes Banner -->
-<section class="flex flex-col lg:flex-row gap-xl items-center glass-panel rounded-xl p-xl overflow-hidden relative">
+<section id="adv" class="scroll-mt-24 flex flex-col lg:flex-row gap-xl items-center glass-panel rounded-xl p-xl overflow-hidden relative">
 <div class="flex-1 flex flex-col gap-lg z-10">
 <div class="flex items-center gap-sm">
 <span class="material-symbols-outlined text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-secondary-container to-tertiary">tune</span>
@@ -251,6 +209,88 @@
 <a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#ffc400] transition-all" href="temi.html" data-i18n="nav.themes">Temi</a>
 <a class="text-on-surface-variant font-body-md text-label-sm hover:text-[#00e5ff] transition-all" href="download.html" data-i18n="nav.download">Download</a></div>
 </footer>
+<script>
+(function () {
+  var THEMES = [
+    { id:"dark_minimal", name:"Dark Minimal", bg:"#09090d", surface:"#1a1a23", accent:"#3b8ef5", text:"#ededf2", tag:"Quiet, modern, out of the way." },
+    { id:"neon_cyber", name:"Neon Cyber", bg:"#07040f", surface:"#100820", accent:"#00f5ff", text:"#f0eeff", tag:"Blade-runner arcade. Scanlines and neon." },
+    { id:"gaming_premium", name:"Gaming Premium", bg:"#0a0805", surface:"#1a1610", accent:"#d4a836", text:"#f5ede0", tag:"Premium gold. Feels expensive." },
+    { id:"flat_modern", name:"Flat Modern", bg:"#0f1117", surface:"#1e2535", accent:"#3b8ef5", text:"#eaf0f8", tag:"Flat, cool, crisp." },
+    { id:"synthwave", name:"Synthwave", bg:"#0d0510", surface:"#1a0a14", accent:"#ff2d87", text:"#f8eeff", tag:"Sunset grid. Pure 80s." },
+    { id:"bushido", name:"Bushido", bg:"#0a0707", surface:"#1a1010", accent:"#c41a1a", text:"#f0ede8", tag:"Crimson steel. Way of the warrior." },
+    { id:"cockpit", name:"Cockpit", bg:"#050c18", surface:"#0c1828", accent:"#00c8ff", text:"#d8f0ff", tag:"Fighter-jet HUD. All systems nominal." },
+    { id:"valhalla", name:"Valhalla", bg:"#0b0908", surface:"#1c160c", accent:"#d4770a", text:"#ede0cc", tag:"Forged in amber. Norse and heavy." },
+    { id:"alpine", name:"Alpine", bg:"#160e1e", surface:"#261a32", accent:"#f0a500", text:"#f0eaf8", tag:"Gold aurora over a purple night." }
+  ];
+
+  var skin = document.createElement("div");
+  skin.id = "theme-skin";
+  skin.style.cssText = "position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:0;transition:opacity .35s ease,background .35s ease;";
+  document.body.appendChild(skin);
+
+  var locked = null;
+
+  function apply(t) {
+    skin.style.background =
+      "radial-gradient(circle at 25% 15%, " + t.accent + "26 0%, transparent 55%)," +
+      "radial-gradient(circle at 85% 80%, " + t.surface + "cc 0%, transparent 60%)," +
+      t.bg;
+    skin.style.opacity = "1";
+    document.body.style.transition = "background-color .35s ease";
+    document.body.style.backgroundColor = t.bg;
+  }
+  function clear() {
+    skin.style.opacity = "0";
+    document.body.style.backgroundColor = "";
+  }
+  function setActive(card, on) {
+    card.style.outline = on ? ("2px solid " + card.dataset.accent) : "";
+    card.style.boxShadow = on ? ("0 0 24px " + card.dataset.accent + "66") : "";
+  }
+
+  var grid = document.getElementById("theme-grid");
+  THEMES.forEach(function (t) {
+    var c = document.createElement("div");
+    c.className = "rounded-xl overflow-hidden cursor-pointer flex flex-col transition-all duration-300";
+    c.dataset.accent = t.accent;
+    c.style.cssText = "background:" + t.bg + ";border:1px solid " + t.accent + "55;";
+    c.innerHTML =
+      '<div style="height:120px;position:relative;background:' + t.bg + ';overflow:hidden;">' +
+        '<div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,' + t.accent + '33,transparent 60%);"></div>' +
+        '<div style="position:absolute;left:14px;bottom:14px;display:flex;gap:6px;">' +
+          '<span style="width:22px;height:22px;border-radius:50%;background:' + t.bg + ';border:1px solid #ffffff22;"></span>' +
+          '<span style="width:22px;height:22px;border-radius:50%;background:' + t.surface + ';border:1px solid #ffffff22;"></span>' +
+          '<span style="width:22px;height:22px;border-radius:50%;background:' + t.accent + ';"></span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="p-md flex flex-col gap-xs">' +
+        '<h3 class="font-headline-md text-headline-md" style="color:' + t.text + ';">' + t.name + '</h3>' +
+        '<p class="font-body-md text-body-md" style="color:' + t.text + 'b3;">' + t.tag + '</p>' +
+        '<span class="font-label-sm" style="color:' + t.accent + ';font-size:12px;">accento personalizzabile</span>' +
+      '</div>';
+
+    c.addEventListener("mouseenter", function () { if (!locked) { apply(t); setActive(c, true); } });
+    c.addEventListener("mouseleave", function () { if (!locked) { clear(); setActive(c, false); } });
+    c.addEventListener("click", function () {
+      if (locked === c) { locked = null; clear(); setActive(c, false); return; }
+      if (locked) { setActive(locked, false); }
+      locked = c; apply(t); setActive(c, true);
+    });
+    grid.appendChild(c);
+  });
+
+  // Tile "crea il tuo"
+  var mk = document.createElement("a");
+  mk.href = "#adv";
+  mk.className = "rounded-xl overflow-hidden cursor-pointer flex flex-col items-center justify-center text-center gap-sm p-xl glass-panel border border-dashed border-outline-variant/50 hover:border-[#00e5ff] transition-all";
+  mk.style.minHeight = "210px";
+  mk.innerHTML =
+    '<span class="material-symbols-outlined text-[40px] text-[#00e5ff]">add_circle</span>' +
+    '<h3 class="font-headline-md text-headline-md text-on-surface">Crea il tuo</h3>' +
+    '<p class="font-body-md text-body-md text-on-surface-variant">Import JSON o sfondo personalizzato</p>';
+  grid.appendChild(mk);
+})();
+</script>
 <script src="i18n.js"></script>
 <script type="module" src="dl-track.js"></script>
 </body></html>

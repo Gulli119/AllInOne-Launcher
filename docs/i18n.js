@@ -169,6 +169,8 @@
   T.it['themes.sub'] = 'Plasmare l\'esperienza visiva non è mai stato così semplice. Scegli tra stili predefiniti, personalizza i dettagli o crea un\'interfaccia unica che rispecchia il tuo setup.';
   T.en['themes.gallery'] = 'Theme Gallery';
   T.it['themes.gallery'] = 'Galleria Temi';
+  T.en['themes.hint'] = 'Hover or click a theme: the page previews it live. Leave or click again to revert. (Nothing is saved — changing page restores the site style.)';
+  T.it['themes.hint'] = 'Passa il mouse o clicca un tema: la pagina lo adotta in anteprima. Esci o ri-clicca per tornare al default. (Nessuna impostazione salvata: cambiando pagina torna lo stile del sito.)';
   T.en['themes.c1.tag'] = 'Minimal';
   T.it['themes.c1.tag'] = 'Minimal';
   T.en['themes.c1.t'] = 'Dark Minimal';
